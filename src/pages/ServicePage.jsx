@@ -127,7 +127,7 @@ export default function ServicePage() {
                 </div>
               ))}
             </div>
-            <Link to="/contact" className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#1b2440] px-5 py-3 text-sm font-semibold text-[#f7f1e8] transition hover:bg-[#2b3551]">
+            <Link to="/contact" className="contrast-button mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#1b2440] px-5 py-3 text-sm font-semibold transition hover:bg-[#2b3551]">
               Get a quote for this
             </Link>
             <p className="mt-3 text-xs leading-5 text-slate-500">Rates are a starting point — final pricing depends on project scope and timing.</p>
@@ -146,7 +146,7 @@ export default function ServicePage() {
                 <img
                   src={image}
                   alt={`Justin design sample ${index + 1}`}
-                  className="h-64 w-full object-cover"
+                  className="block aspect-[3/4] w-full object-cover"
                 />
               </div>
             ))}
@@ -178,7 +178,7 @@ export default function ServicePage() {
                     href={project.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-[#1b2440] px-4 py-2.5 text-sm font-semibold text-[#fffaf5] transition hover:bg-[#2c355c]"
+                    className="contrast-button mt-5 inline-flex w-full items-center justify-center rounded-full bg-[#1b2440] px-4 py-2.5 text-sm font-semibold transition hover:bg-[#2c355c]"
                   >
                     View project
                   </a>

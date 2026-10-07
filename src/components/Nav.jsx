@@ -47,7 +47,7 @@ export default function Nav() {
               end={l.end}
               className={({ isActive }) =>
                 `rounded-full px-4 py-2 text-sm font-medium text-center transition ${
-                  isActive ? 'bg-[#d8752d] text-white shadow-[0_8px_20px_rgba(216,117,45,0.2)]' : 'text-[#1d1b1a] hover:bg-[#f8efe6]'
+                  isActive ? 'contrast-button bg-[#d8752d] shadow-[0_8px_20px_rgba(216,117,45,0.2)]' : 'text-[#1d1b1a] hover:bg-[#f8efe6]'
                 }`
               }
               onClick={() => setOpen(false)}

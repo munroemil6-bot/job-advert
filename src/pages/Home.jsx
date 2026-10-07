@@ -24,10 +24,10 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Link to="/contact" className="inline-flex items-center justify-center rounded-full bg-[#d8752d] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#bf6322]">
+                <Link to="/contact" className="contrast-button inline-flex items-center justify-center rounded-full bg-[#d8752d] px-6 py-3 text-sm font-semibold transition hover:bg-[#bf6322]">
                   Book a project call
                 </Link>
-                <Link to="/services/web-development" className="inline-flex items-center justify-center rounded-full bg-[#1d1b1a] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#3a322f]">
+                <Link to="/services/web-development" className="contrast-button inline-flex items-center justify-center rounded-full bg-[#1d1b1a] px-6 py-3 text-sm font-semibold transition hover:bg-[#3a322f]">
                   View services
                 </Link>
               </div>
@@ -164,7 +164,7 @@ export default function Home() {
               href="https://munroemil6-bot.github.io/personal-portfolio/"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-full bg-[#1d1b1a] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#3a322f]"
+              className="contrast-button inline-flex items-center justify-center rounded-full bg-[#1d1b1a] px-5 py-3 text-sm font-semibold transition hover:bg-[#3a322f]"
             >
               Open full portfolio
             </a>
@@ -182,7 +182,7 @@ export default function Home() {
             <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[#8a8078]">Ready to begin</p>
             <h2 className="mt-3 font-display text-4xl leading-none tracking-[-0.04em] text-[#1d1b1a]">Let’s build your next project.</h2>
           </div>
-          <Link to="/contact" className="inline-flex items-center justify-center rounded-full bg-[#1d1b1a] px-6 py-3 text-sm font-semibold text-[#fffaf5] transition hover:bg-[#3a322f]">
+          <Link to="/contact" className="contrast-button inline-flex items-center justify-center rounded-full bg-[#1d1b1a] px-6 py-3 text-sm font-semibold transition hover:bg-[#3a322f]">
             Send project details
           </Link>
         </div>

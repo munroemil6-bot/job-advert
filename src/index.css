@@ -35,6 +35,14 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.contrast-button {
+  color: #fffaf5;
+}
+
+.contrast-button * {
+  color: inherit;
+}
+
 * {
   box-sizing: border-box;
 }
