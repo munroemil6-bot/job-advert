@@ -1,4 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
+import { projects } from '../data/projects'
 import { getService, services } from '../data/services'
 import graphicdesign1 from '../components/graphicdesign1.jpeg'
 import graphicdesign2 from '../components/graphicdesign2.jpeg'
@@ -148,6 +149,41 @@ export default function ServicePage() {
                   className="h-64 w-full object-cover"
                 />
               </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {service.slug === 'web-development' && (
+        <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+          <div className="mb-6">
+            <p className="text-[10px] uppercase tracking-[0.28em] text-slate-500">Web projects</p>
+            <h2 className="mt-3 font-display text-4xl leading-none tracking-[-0.04em] text-[#1b2440]">Selected website builds</h2>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            {projects.map((project) => (
+              <article key={project.title} className="overflow-hidden rounded-[28px] border border-[#1b2440]/10 bg-[#fffdf9] shadow-[0_18px_42px_rgba(27,36,64,0.05)]">
+                <img src={project.image} alt={project.title} className="h-56 w-full object-cover" />
+                <div className="p-6">
+                  <div className="mb-3 flex items-center justify-between gap-3">
+                    <span className="rounded-full bg-[#f5efe8] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-[#7a6256]">
+                      {project.category}
+                    </span>
+                  </div>
+                  <h3 className="font-display text-3xl leading-none text-[#1b2440]">{project.title}</h3>
+                  <p className="mt-3 text-sm leading-6 text-slate-600">{project.description}</p>
+
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-[#1b2440] px-4 py-2.5 text-sm font-semibold text-[#fffaf5] transition hover:bg-[#2c355c]"
+                  >
+                    View project
+                  </a>
+                </div>
+              </article>
             ))}
           </div>
         </section>

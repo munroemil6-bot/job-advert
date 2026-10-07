@@ -20,11 +20,11 @@ export default function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-3 py-3 sm:px-6 lg:px-8">
         <NavLink to="/" className="flex min-w-0 items-center gap-2 sm:gap-3" onClick={() => setOpen(false)}>
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#d8752d] font-display text-[10px] font-semibold tracking-[0.18em] text-white shadow-[0_8px_20px_rgba(216,117,45,0.28)] sm:h-10 sm:w-10 sm:text-xs">
-            J&amp;C
+            JM
           </span>
           <div className="flex min-w-0 flex-col leading-none">
-            <span className="font-display text-base font-semibold tracking-tight text-[#1d1b1a] sm:text-lg">Justin &amp; Co.</span>
-            <span className="text-[9px] uppercase tracking-[0.26em] text-[#6d625d] sm:text-[10px]">Studio</span>
+            <span className="font-display text-base font-semibold tracking-tight text-[#1d1b1a] sm:text-lg">JM Studio</span>
+            <span className="text-[9px] uppercase tracking-[0.26em] text-[#6d625d] sm:text-[10px]">Brand &amp; web</span>
           </div>
         </NavLink>
 

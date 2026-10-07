@@ -29,10 +29,10 @@ export default function Contact() {
       accent: 'bg-white text-[#1d1b1a] border border-[#1d1b1a]/10',
     },
     {
-      label: 'Portfolio',
+      label: 'Myles Portfolio',
       type: 'Work',
-      description: 'Myles portfolio coming soon',
-      action: '#',
+      description: 'See my live portfolio and project work.',
+      action: 'https://munroemil6-bot.github.io/personal-portfolio/',
       accent: 'bg-[#f5efe8] text-[#1d1b1a] border border-[#1d1b1a]/10',
     },
   ]
