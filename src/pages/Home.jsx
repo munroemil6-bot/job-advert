@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { services } from '../data/services'
 import graphicDesignFeature from '../components/graphicdesign1.jpeg'
+import Seo from '../components/Seo'
 
 const webDevelopmentFeature = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80'
 
@@ -10,6 +11,11 @@ export default function Home() {
 
   return (
     <div className="bg-[#fffaf5] text-[#1d1b1a]">
+      <Seo
+        title="Justin & Co. | Graphic Design, Branding & Web Development"
+        description="Build a stronger brand with Justin & Co. Thoughtful graphic design, brand identities, and responsive web development for businesses."
+        path="/"
+      />
       <section className="mx-auto max-w-7xl px-4 pb-8 pt-8 sm:px-6 lg:px-8 lg:pb-12 lg:pt-12">
         <div className="overflow-hidden rounded-[32px] border border-[#f2e2d4] bg-[linear-gradient(135deg,#fffaf5_0%,#fff1e5_100%)] p-5 shadow-[0_30px_80px_rgba(29,27,26,0.06)] sm:p-8 lg:p-10">
           <div className="grid items-center gap-8 lg:grid-cols-[1.08fr_0.92fr]">

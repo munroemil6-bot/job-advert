@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom'
+import Seo from '../components/Seo'
 
 export default function NotFound() {
   return (
     <div className="mx-auto flex min-h-[60vh] max-w-5xl flex-col items-start justify-center gap-6 px-4 py-20 sm:px-6 lg:px-8">
+      <Seo
+        title="Page Not Found | Justin & Co."
+        description="The page you’re looking for could not be found."
+        path="/"
+        noIndex
+      />
       <span className="rounded-full border border-[#1b2440]/15 bg-white/70 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.28em] text-slate-500">
         404
       </span>

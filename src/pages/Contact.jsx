@@ -1,3 +1,5 @@
+import Seo from '../components/Seo'
+
 export default function Contact() {
   const contactMethods = [
     {
@@ -46,6 +48,11 @@ export default function Contact() {
 
   return (
     <div>
+      <Seo
+        title="Contact Justin & Co. | Start a Design or Web Project"
+        description="Contact Justin & Co. to discuss graphic design, branding, or web development for your business."
+        path="/contact"
+      />
       <section className="contact-visual text-[#f0f2f5]">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <p className="text-[10px] uppercase tracking-[0.28em] text-[#f7d7b9]">Start a project</p>

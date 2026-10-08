@@ -1,6 +1,7 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { projects } from '../data/projects'
 import { getService, services } from '../data/services'
+import Seo from '../components/Seo'
 import graphicdesign1 from '../components/graphicdesign1.jpeg'
 import graphicdesign2 from '../components/graphicdesign2.jpeg'
 import graphicdesign3 from '../components/graphicdesign3.jpeg'
@@ -45,6 +46,11 @@ export default function ServicePage() {
 
   return (
     <div>
+      <Seo
+        title={`${service.name} | Justin & Co.`}
+        description={service.summary}
+        path={`/services/${service.slug}`}
+      />
       <section className="service-visual text-[#f0f2f5]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
