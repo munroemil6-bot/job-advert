@@ -29,7 +29,7 @@ export default function Contact() {
       accent: 'contrast-button bg-[#1d1b1a]',
     },
     {
-      label: 'Portfolio',
+      label: 'Justin’s Portfolio',
       type: 'Work',
       description: 'See Justin’s portfolio and design work.',
       action: 'https://lucky-lily-572a74.netlify.app',

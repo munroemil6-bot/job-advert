@@ -161,12 +161,12 @@ export default function Home() {
               </h2>
             </div>
             <a
-              href="https://munroemil6-bot.github.io/personal-portfolio/"
+              href="https://lucky-lily-572a74.netlify.app"
               target="_blank"
               rel="noreferrer"
               className="contrast-button inline-flex items-center justify-center rounded-full bg-[#1d1b1a] px-5 py-3 text-sm font-semibold transition hover:bg-[#3a322f]"
             >
-              Open full portfolio
+              Open Justin’s portfolio
             </a>
           </div>
 
