@@ -4,8 +4,15 @@ export default function Contact() {
       label: 'Justin WhatsApp',
       type: 'WhatsApp',
       description: 'Start a quick chat about your project details.',
-      action: 'https://wa.me/254700000000?text=Hi%20Justin%2C%20I%27d%20like%20to%20start%20a%20project.',
+      action: 'https://wa.me/254757131197?text=Hi%20Justin%2C%20I%27d%20like%20to%20start%20a%20project.',
       accent: 'contrast-button bg-[#25d366]',
+    },
+    {
+      label: 'Call Justin',
+      type: 'Phone',
+      description: '0757 131 197',
+      action: 'tel:+254757131197',
+      accent: 'contrast-button bg-[#1d1b1a]',
     },
     {
       label: 'Myles WhatsApp',
@@ -24,8 +31,8 @@ export default function Contact() {
     {
       label: 'Portfolio',
       type: 'Work',
-      description: 'Justin portfolio coming soon',
-      action: '#',
+      description: 'See Justin’s portfolio and design work.',
+      action: 'https://lucky-lily-572a74.netlify.app',
       accent: 'bg-white text-[#1d1b1a] border border-[#1d1b1a]/10',
     },
     {
